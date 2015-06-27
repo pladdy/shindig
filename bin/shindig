@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# TODO:
+# hoping this can be called in a script that wants shindig for the testing
+# functions
+#
+# Ex:
+# have code here so when 'shindig' is called it sources all the libs.
+# install should copy this to /usr/local/bin
+# but where should supporting files go?

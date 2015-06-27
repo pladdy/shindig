@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source "./shindig.sh"
+source "./shindig/shindig.sh"
 echo "i'm in tests.sh : $0"
 
 testing "some basic assertions for numbers and strings" ; {

@@ -40,10 +40,7 @@ assert() {
 
   announce "  asserting $*..."
 
-  local assertion=$1
-  local operator=$2
-  local assumption=$3
-  run_test "$assertion" "$operator" "$assumption"
+  run_test "$1" "$2" "$3"
   assertions=$assertions+1
 }
 

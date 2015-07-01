@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ `git rev-parse --abbrev-ref HEAD` != "master" ]; then
+  echo "Not on master branch"
+else
+  echo "On master branch"
+fi
